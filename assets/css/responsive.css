@@ -1,0 +1,723 @@
+@media (min-width: 1200px) {
+  .l-l-b-wrapper {
+    max-width: 1312px;
+  }
+}
+
+/*
+================================================
+Responsive Breakpoint
+================================================
+*/
+@media (max-width: 1599px) {
+  :root {
+    --size-6xl: 75px;
+    --size-5xl: 50px;
+    --size-2xl: 18px;
+  }
+
+  /* 
+	--------------------------------------
+	Header Section Responsive
+	--------------------------------------
+	*/
+  .open-menu-btn {
+    right: 80px;
+  }
+
+  /* 
+	--------------------------------------
+	Hero Section Responsive
+	--------------------------------------
+	*/
+  .hero-wrapper {
+    padding: 60px;
+    width: 650px;
+    min-height: 650px;
+  }
+
+  .hero-content .hero-desc {
+    margin-bottom: 70px;
+  }
+
+  .hero-slider .owl-dots {
+    bottom: 270px;
+  }
+
+  /* 
+	--------------------------------------
+	Listen-Learn-Build Section Responsive
+	--------------------------------------
+	*/
+  .l-l-b-circle {
+    right: -213px;
+    bottom: -225px;
+  }
+}
+
+@media (max-width: 1399px) {
+  :root {
+    --size-5xl: 50px;
+    --size-4xl: 35px;
+    --size-3xl: 23px;
+    --size-2xl: 16px;
+  }
+
+  /* 
+	--------------------------------------
+	Header Section Responsive
+	--------------------------------------
+	*/
+  .open-menu-btn {
+    top: 33px;
+  }
+
+  .header-logo {
+    max-width: 230px;
+    padding-left: 40px;
+  }
+
+  .open-menu-btn {
+    right: 40px;
+  }
+
+  .main-menu .main-menu-item .main-menu-link {
+    font-size: 40px;
+  }
+
+  /* 
+	--------------------------------------
+	Hero Section Responsive
+	--------------------------------------
+	*/
+  .hero-section {
+    padding-bottom: 200px;
+  }
+
+  .hero-wrapper {
+    width: 650px;
+    min-height: 650px;
+  }
+
+  .hero-content .hero-desc {
+    margin-bottom: 70px;
+  }
+
+  .hero-slider .owl-dots {
+    bottom: 240px;
+  }
+  
+  /* 
+	--------------------------------------
+	Listen-Learn-Build Section Responsive
+	--------------------------------------
+	*/
+  .l-l-b-content {
+    padding-left: 50px;
+  }
+
+  /* 
+	--------------------------------------
+	ICB-Testimonial Section Responsive
+	--------------------------------------
+	*/
+  .icb-testimonial-circle {
+    width: 550px;
+    height: 550px;
+  }
+
+  .icb-testimonial-quote {
+    margin-top: -90px;
+    margin-right: -14px;
+    max-width: 130px;
+  }
+
+  /* 
+	--------------------------------------
+	Services Section Responsive
+	--------------------------------------
+	*/
+  .services {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1199px) {
+  :root {
+    --size-5xl: 50px;
+    --size-4xl: 30px;
+    --size-2xl: 14px;
+  }
+
+  /* 
+	--------------------------------------
+	Header Section Responsive
+	--------------------------------------
+	*/
+  .header-logo {
+    max-width: 210px;
+  }
+
+  .nav-bar {
+    height: 1500px;
+    width: 1500px;
+  }
+
+  .main-menu-wrap {
+    left: 270px;
+  }
+
+  .main-menu .main-menu-item .main-menu-link {
+    font-size: 35px;
+  }
+
+  /* 
+	--------------------------------------
+	Listen-Learn-Build Section Responsive
+	--------------------------------------
+	*/
+  .l-l-b-content {
+    padding-left: 30px;
+  }
+
+  /* 
+	--------------------------------------
+	ICB-Testimonial Section Responsive
+	--------------------------------------
+	*/
+  .icb-testimonial-circle {
+    width: 500px;
+    height: 500px;
+  }
+
+  /* 
+	--------------------------------------
+	Services Section Responsive
+	--------------------------------------
+	*/
+  .services {
+    width: 330px;
+    height: 330px;
+  }
+
+  /* 
+	--------------------------------------
+	Time-Talk Section Responsive
+	--------------------------------------
+	*/
+  .time-talk-circle {
+    width: 950px;
+    height: 950px;
+  }
+}
+
+@media (max-width: 991px) {
+  :root {
+    --size-6xl: 60px;
+    --size-5xl: 45px;
+    --size-4xl: 25px;
+    --size-3xl: 20px;
+  }
+
+  /* 
+	--------------------------------------
+	Header Section Responsive
+	--------------------------------------
+	*/
+  .nav-bar {
+    height: 1450px;
+    width: 1450px;
+  }
+
+  .main-menu-wrap {
+    bottom: 240px;
+  }
+
+  .main-menu .main-menu-item .main-menu-link {
+    font-size: 30px;
+  }
+
+  .menu .menu-item .menu-link {
+    font-size: 20px;
+  }
+
+  /* 
+	--------------------------------------
+	Hero Section Responsive
+	--------------------------------------
+	*/
+  .hero-section {
+    padding-bottom: 150px;
+  }
+
+  .hero-wrapper {
+    width: 550px;
+    min-height: 550px;
+  }
+
+  .hero-content .hero-desc {
+    margin-bottom: 50px;
+  }
+
+  .hero-slider .owl-dots {
+    bottom: 180px;
+  }
+
+  /* 
+	--------------------------------------
+	Listen-Learn-Build Section Responsive
+	--------------------------------------
+	*/
+  .listen-learn-build-sec {
+    margin-top: 0;
+    padding: 84px 0 118px;
+  }
+
+  .l-l-b-bg {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 40px;
+  }
+
+  .l-l-b-content {
+    padding: 0px;
+  }
+
+  /* 
+	--------------------------------------
+	ICB-Testimonial Section Responsive
+	--------------------------------------
+	*/
+  .icb-testimonial-circle {
+    top: -302px;
+  }
+
+  .icb-testimonial-quote {
+    margin-top: -55px;
+    margin-right: -8px;
+    max-width: 100px;
+  }
+
+  /* 
+	--------------------------------------
+	Services Section Responsive
+	--------------------------------------
+	*/
+  .services-wrapper .services:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .services {
+    width: 250px;
+    height: 250px;
+  }
+
+  .services .services-img {
+    max-width: 50px;
+  }
+
+  /* 
+	--------------------------------------
+	Time-Talk Section Responsive
+	--------------------------------------
+	*/
+  .time-talk-circle {
+    width: 750px;
+    height: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --size-6xl: 50px;
+    --size-5xl: 40px;
+    --size-4xl: 20px;
+    --size-xl: 16px;
+  }
+
+  /* 
+	--------------------------------------
+	Header Section Responsive
+	--------------------------------------
+	*/
+  .header-logo {
+    padding-left: 30px;
+  }
+
+  .open-menu-btn {
+    right: 30px;
+  }
+
+  .nav-bar.open {
+    top: -720px;
+    right: -770px;
+  }
+
+  .nav-bar {
+    height: 1350px;
+    width: 1350px;
+  }
+
+  .main-menu-wrap {
+    left: 220px;
+    bottom: 235px;
+  }
+
+  .main-menu .main-menu-item .main-menu-link {
+    font-size: 25px;
+  }
+
+  .menu .menu-item:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .menu .menu-item .menu-link {
+    font-size: 18px;
+  }
+
+  /* 
+	--------------------------------------
+	Hero Section Responsive
+	--------------------------------------
+	*/
+  .hero-section {
+    padding-top: 130px;
+    padding-bottom: 140px;
+  }
+
+  .hero-wrapper {
+    padding: 40px;
+    width: 500px;
+    min-height: 500px;
+  }
+
+  .hero-content .hero-desc {
+    margin-bottom: 50px;
+  }
+
+  .hero-slider .owl-dots {
+    left: 30px;
+    bottom: 160px;
+  }
+
+  /* 
+	--------------------------------------
+	Listen-Learn-Build Section Responsive
+	--------------------------------------
+	*/
+  .listen-learn-build-sec {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  /* 
+	--------------------------------------
+	ICB-Testimonial Section Responsive
+	--------------------------------------
+	*/
+  .icb-testimonial-wrapper {
+    padding: 90px 0 120px;
+  }
+
+  .icb-testimonial-circle {
+    left: -155px;
+  }
+
+  .icb-testimonial-quote {
+    margin-top: -41px;
+    margin-right: -5px;
+    max-width: 75px;
+  }
+
+  /* 
+	--------------------------------------
+	Services Section Responsive
+	--------------------------------------
+	*/
+  .services-sec {
+    padding: 50px 0 70px;
+  }
+
+  .services {
+    position: static;
+    width: 290px;
+    height: 290px;
+    margin: auto;
+  }
+
+  .services .services-img {
+    max-width: 60px;
+  }
+
+  /* 
+	--------------------------------------
+	Partners Section Responsive
+	--------------------------------------
+	*/
+  .partners-sec {
+    padding: 65px 0 70px;
+  }
+
+  /* 
+	--------------------------------------
+	Time-Talk Section Responsive
+	--------------------------------------
+	*/
+  .time-talk-sec {
+    padding: 70px 0 110px;
+  }
+
+  .time-talk-circle {
+    width: 550px;
+    height: 550px;
+  }
+
+  .time-talk-sec-title .time-talk-sec-desc {
+    margin-bottom: 35px;
+  }
+
+  /* 
+	--------------------------------------
+	Footer Section Responsive
+	--------------------------------------
+	*/
+  .footer-sec {
+    padding-top: 70px;
+  }
+
+  .footer-page {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  :root {
+    --size-6xl: 45px;
+    --size-3xl: 18px;
+  }
+
+  /* 
+	--------------------------------------
+	Header Section Responsive
+	--------------------------------------
+	*/
+  .header-logo {
+    max-width: 180px;
+    padding-left: 20x;
+  }
+
+  .open-menu-btn {
+    right: 20px;
+  }
+
+  .nav-bar.open {
+    top: -700px;
+    right: -900px;
+  }
+
+  .main-menu .main-menu-item .main-menu-link {
+    font-size: 23px;
+  }
+
+  .menu .menu-item:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+
+  .menu .menu-item .menu-link {
+    font-size: 16px;
+  }
+
+  /* 
+	--------------------------------------
+	Hero Section Responsive
+	--------------------------------------
+	*/
+  .hero-section {
+    padding-bottom: 120px;
+  }
+
+  .hero-wrapper {
+    width: 430px;
+    min-height: 430px;
+  }
+
+  .hero-content .hero-desc {
+    margin-bottom: 30px;
+  }
+
+  .hero-slider .owl-dots {
+    left: 25px;
+    bottom: 150px;
+  }
+
+  /* 
+	--------------------------------------
+	Listen-Learn-Build Section Responsive
+	--------------------------------------
+	*/
+  .l-l-b-circle {
+    width: 600px;
+    height: 600px;
+    bottom: -202px;
+  }
+
+  /* 
+	--------------------------------------
+	ICB-Testimonial Section Responsive
+	--------------------------------------
+	*/
+  .icb-testimonial-circle {
+    top: -267px;
+    left: -242px;
+  }
+
+  .icb-testimonial-quote {
+    margin-top: -36px;
+    margin-right: 0px;
+    max-width: 65px;
+  }
+
+  /* 
+	--------------------------------------
+	Footer Section Responsive
+	--------------------------------------
+	*/
+  .footer-page-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .footer-page {
+    width: 50%;
+  }
+}
+
+@media (max-width: 440px) {
+  :root {
+    --size-6xl: 40px;
+  }
+
+  /* 
+	--------------------------------------
+	Hero Section Responsive
+	--------------------------------------
+	*/
+  .hero-section {
+    padding-bottom: 120px;
+  }
+
+  .hero-wrapper {
+    width: 400px;
+    min-height: 400px;
+  }
+
+  .hero-slider .owl-dots {
+    left: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  :root {
+    --size-6xl: 35px;
+    --size-5xl: 35px;
+    --size-5xl: 35px;
+    --size-lg: 14px;
+  }
+
+  /* 
+	--------------------------------------
+	Header Section Responsive
+	--------------------------------------
+	*/
+  .open-menu-btn {
+    right: 15px;
+  }
+
+  /* 
+	--------------------------------------
+	Hero Section Responsive
+	--------------------------------------
+	*/
+  .hero-wrapper {
+    width: 380px;
+    min-height: 380px;
+  }
+
+  /* 
+	--------------------------------------
+	Listen-Learn-Build Section Responsive
+	--------------------------------------
+	*/
+  .l-l-b-circle {
+    right: -231px;
+    bottom: -185px;
+  }
+
+  /* 
+	--------------------------------------
+	ICB-Testimonial Section Responsive
+	--------------------------------------
+	*/
+  .icb-testimonial-wrapper {
+    padding: 50px 0 110px;
+  }
+
+  .icb-testimonial-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .icb-testimonial-quote {
+    margin-top: 0px;
+    margin-right: 0px;
+    max-width: 80px;
+  }
+
+  .icb-testimonial {
+    margin-top: -70px;
+  }
+}
+
+@media (max-width: 400px) {
+  :root {
+    --size-6xl: 40px;
+  }
+
+  /* 
+	--------------------------------------
+	Hero Section Responsive
+	--------------------------------------
+	*/
+  .hero-section {
+    padding-bottom: 100px;
+  }
+
+  .hero-wrapper {
+    padding: 0;
+    width: 100%;
+    min-height: auto;
+    border-color: transparent;
+    border-radius: 0;
+  }
+
+  .hero-slider .owl-dots {
+    bottom: 130px;
+  }
+}
+
+@media (max-width: 375px) {
+  /* 
+	  --------------------------------------
+	  Listen-Learn-Build Section Responsive
+	  --------------------------------------
+	  */
+  .l-l-b-circle {
+    right: -285px;
+  }
+}
