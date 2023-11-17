@@ -1,3 +1,44 @@
+function initOwlCarousel() {
+    var owl = $('.building-slider');
+    
+    owl.owlCarousel({
+        items: 3,
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+            // breakpoint from 0 up
+            0: {
+                items: 1,
+            },
+            // breakpoint from 480 up
+            480: {
+                items: 2,
+            },
+            // breakpoint from 768 up
+            768: {
+                items: 3,
+            }
+        }
+    });
+
+    $('.play').on('click', function () {
+        owl.trigger('play.owl.autoplay', [3000]);
+    });
+
+    $('.stop').on('click', function () {
+        owl.trigger('stop.owl.autoplay');
+    });
+}
+
+// Call the function to initialize Owl Carousel
+initOwlCarousel();
+
+
+
+
 (function ($) {
 	"use strict";
 	/* ===== Hero Slider JS ===== */
@@ -45,6 +86,7 @@
 			},
 		},
 	});
+	
 
 	/* ===== Wow JS ===== */
 	new WOW().init();

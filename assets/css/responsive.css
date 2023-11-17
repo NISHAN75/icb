@@ -327,6 +327,25 @@ Responsive Breakpoint
     width: 750px;
     height: 750px;
   }
+
+/* ### write a nishan code */
+/* about section */
+.vision-content {
+  margin-top: 40px;
+}
+.process-area h2{
+  text-align: center;
+}
+.process-card {
+  margin-top: 35px;
+}
+.process-card .secound-div {
+  flex-direction: column;
+}
+
+
+
+
 }
 
 @media (max-width: 767px) {
@@ -490,6 +509,20 @@ Responsive Breakpoint
   .footer-page {
     width: 100%;
   }
+
+  /* ##### write a code nishan #### */
+/* about section */
+  .title-one {
+    font-size: 50px;
+}
+.leadership-card p {
+  font-size: 20px;
+}
+
+
+
+
+
 }
 
 @media (max-width: 575px) {
