@@ -33,7 +33,7 @@ function initOwlCarousel() {
     });
 }
 
-// Call the function to initialize Owl Carousel
+// building-slider call
 initOwlCarousel();
 
 
@@ -47,6 +47,20 @@ initOwlCarousel();
 		items: 1,
 		margin: 0,
 		nav: false,
+		dots: true,
+		autoplay: true,
+        mouseDrag: false,
+        touchDrag: false,
+        pullDrag: false,
+        rewind: true,
+        smartSpeed: 1000,
+	});
+	/* ===== Hero Slider JS ===== */
+	$(".leab-sciences-building").owlCarousel({
+		loop: true,
+		items: 1,
+		margin: 0,
+		nav: true,
 		dots: true,
 		autoplay: true,
         mouseDrag: false,

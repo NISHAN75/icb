@@ -85,6 +85,7 @@ h6 {
 	color: var(--primary-bg);
 	font-style: normal;
 	font-weight: 600;
+	text-transform: capitalize;
 }
 /* margin top */
 .mt-35 {
@@ -116,6 +117,9 @@ h6 {
 .pt-90 {
 	padding-top: 90px;
 }
+.pt-110{
+	padding-top: 110px;
+}
 .pt-120 {
 	padding-top: 120px;
 }
@@ -130,6 +134,9 @@ h6 {
 .pb-65 {
 	padding-bottom: 65px;
 }
+.pb-85{
+	padding-bottom: 85px;
+}
 .pb-110 {
 	padding-bottom: 110px;
 }
@@ -138,6 +145,9 @@ h6 {
 }
 .pb-185 {
 	padding-bottom: 185px;
+}
+.pb-200{
+	padding-bottom: 200px;
 }
 
 /* section-padding */
@@ -197,6 +207,9 @@ h6 {
 }
 .f-300 {
 	font-weight: 300;
+}
+.text-normal{
+	text-transform: unset;
 }
 
 *,
@@ -831,7 +844,7 @@ Start Hero Section
 	height: 32px;
 }
 
-.hero-slider .owl-dots {
+.hero-slider .owl-dots , .leab-sciences-building .owl-dots  {
 	position: absolute;
 	left: 50px;
 	bottom: 300px;
@@ -846,7 +859,7 @@ Start Hero Section
 	justify-content: center;
 }
 
-.hero-slider .owl-dots button span {
+.hero-slider .owl-dots button span , .leab-sciences-building .owl-dots button span   {
 	cursor: pointer;
 	width: 10px;
 	height: 10px;
@@ -856,7 +869,7 @@ Start Hero Section
 	margin: 0 2px;
 }
 
-.hero-slider .owl-dots button.active span {
+.hero-slider .owl-dots button.active span , .leab-sciences-building .owl-dots  button.active span {
 	opacity: 1;
 }
 .hero-section {
@@ -1202,6 +1215,10 @@ End Time-Talk Section
 	border-radius: 50px;
 	transition: 0.45s;
 }
+.btn-2:hover {
+    background: var(--secondary-bg);
+    color: var(--primary-color);
+}
 .back-btn {
 	color: #e87722;
 	font-weight: 900;
@@ -1358,7 +1375,7 @@ End Time-Talk Section
 	border-radius: 25px;
 	transition: 0.45s;
 }
-.gallary-area .gallary-wrap:hover::before {
+.gallary-area .gallary-wrap:hover::before , .related-projects .gallary-wrap:hover::before {
 	opacity: 76%;
 	visibility: visible;
 }
@@ -1381,7 +1398,7 @@ End Time-Talk Section
 	visibility: hidden;
 	transition: 0.45s;
 }
-.gallary-area .gallary-wrap:hover .gallary-content {
+.gallary-area .gallary-wrap:hover .gallary-content , .related-projects .gallary-wrap:hover .gallary-content{
 	opacity: 1;
 	visibility: visible;
 }
@@ -1389,13 +1406,174 @@ End Time-Talk Section
 /* project section area end */
 
 
-/* projects area start */
+/* projects details area start */
 .title-section p {
     font-size: 28px;
     line-height: 0.875;
     color: #97B2E6;
     font-weight: 600;
 }
+
+/*  leab-sciences-building */
+.leab-sciences-building .owl-dots {
+	right: 205px;
+    left: auto;
+    bottom: 50px;
+}
+.leab-sciences-building .owl-nav {
+    position: absolute;
+    bottom: 37px;
+    right: 292px;
+	margin-top: -28px;
+}
+.leab-sciences-building .owl-nav .owl-prev span , .owl-nav button.owl-next span {
+    color: #fff;
+    font-size: 56px;
+    line-height: 56px;
+
+}
+.leab-sciences-building .owl-prev {
+    margin-right: 25px;
+}
+.leab-sciences-building.owl-carousel .owl-nav button.owl-next, .leab-sciences-building.owl-carousel .owl-nav button.owl-prev {
+    border: 1px solid #fff;
+    padding: 0!important;
+    font: inherit;
+    height: 56px;
+    width: 56px;
+    line-height: 56px;
+    border-radius: 50%;
+    z-index: 1;
+	position: relative;
+}
+.leab-sciences-building.owl-carousel .owl-nav button.owl-next::before , .leab-sciences-building.owl-carousel .owl-nav button.owl-prev::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: var(--bg-color3);
+	opacity: 55%;
+	border-radius: 50%;
+	z-index: -1;
+}
+.leab-sciences-building.owl-carousel .owl-nav button.owl-next:hover::before , .leab-sciences-building.owl-carousel .owl-nav button.owl-prev:hover::before {
+	background: var(--secondary-bg);
+
+}
+.leab-img::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,23,84);
+    background: linear-gradient(90deg, rgba(0,23,84,1) 35%, rgba(0,32,91,1) 88%);
+    opacity: 82%;
+}
+/* projects details content area*/
+.projects-details-content {
+    max-width: 1073px;
+}
+/* related-projects */
+/* .related-projects::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/r-back-bg.jpg');
+	z-index: 1;
+} */
+.related-projects .gallary-btn{
+	margin-top: 70px;
+}
+.related-projects .gallary-wrap img {
+    min-height: 404px;
+}
+.related-projects .gallary-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -115px;
+    margin-left: -106.5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.45s;
+}
+
+
+
+
+/* projects details area end */
+
+
+
+/* carrer area start */
+
+/* accordion */
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.accordion-item {
+    padding: 71px 84px;
+}
+.accordion-button{
+	color: #00205B;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 0.95;
+    font-family: var(--primary-font);
+	padding: 0;
+}
+.accordion-button:not(.collapsed) {
+	color: #00205B;
+    background-color: transparent;
+    box-shadow: none;
+}
+.accordion-body {
+    padding: 0;
+	padding-top: 29px;
+    padding-right: 120px;
+}
+.accordion-button:not(.collapsed)::after {
+    display: none;
+} 
+.accordion-button::after {
+    display: none;
+}
+.accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordion-button:focus {
+    z-index: 0;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+.careers-according-area    .accordion-button:not(.collapsed) ~ .plus-minus img {
+    transform: rotate(45deg);
+}
+/* carrer area  end */
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 
 =========================================
