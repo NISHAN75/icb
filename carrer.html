@@ -8,9 +8,14 @@
 		<link rel="stylesheet" href="https://use.typekit.net/axr1opd.css" />
 		<link rel="stylesheet" href="assets/css/animate.min.css" />
 		<link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="assets/css/nice-select.css" />
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/magnific-popup.css" />
 		<link rel="stylesheet" href="assets/css/style.css?ver=<?php echo time(); ?>" />
 		<link rel="stylesheet" href="assets/css/responsive.css?ver=<?php echo time(); ?>" />
+
+
+
 	</head>
 	<body>
 		<header>
@@ -72,11 +77,53 @@
 			</section>
 
 			<!-- about hero section -->
-
+			<!-- The Modal -->
+			<div class="modal" id="myModal">
+				<div class="container-xl">
+					<div class="row no-guuter">
+							<div class="col-lg-6">
+								<img src="assets/images/contact-pop-img.jpg" alt="" class="w-100">
+							</div>
+							<div class="col-lg-6">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<div class="contact-form">
+									<form action="#">
+										<div class="mb-3">
+											<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name*">
+										</div>
+										<div class="mb-3">
+											<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Last Name*">
+										</div>
+										<div class="mb-3">
+											<input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="Phone*">
+										</div>
+										<div class="mb-3">
+											<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email*">
+										</div>
+										<div class="mb-3">
+											<select class="w-100 interest-select" name="cars" id="cars">
+												<option value="volvo">Volvo</option>
+												<option value="saab">Saab</option>
+												<option value="mercedes">Mercedes</option>
+												<option value="audi">Audi</option>
+											</select>
+										</div>
+										<div class="mb-3">
+											<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comments"></textarea>
+										</div>
+										<div class="contact-btns d-flex  justify-content-between">
+											<button type="button" class="bg-btn wow animate__ animate__fadeInUp animated" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeInUp">SUBMIT</button>
+											<button  class="bg-btn transparent-bg wow animate__ animate__fadeInUp animated" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeInUp" type="file" id="pdfFile" name="pdfFile" accept=".pdf">UPLOAD PDF <img src="assets/images/upload-ico.svg" alt=""> </button>
+										</div>
+									</form>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
 			<!--  accordion area start -->
 			<div class="careers-according-area" id="careers-accordion">
 				<div class="accordion" id="accordionExample">
-
 					<div class="accordion-item">
 					   <div class="container">
 						<div class="row">
@@ -93,7 +140,10 @@
 									<div class="accordion-body">
 										<p>Our Project Managers oversee and manage all aspects of construction projects, from inception to completion. You are responsible for coordinating resources, managing budgets, ensuring quality and safety standards, and effectively communicating with clients, subcontractors, and the project team to ensure successful project delivery.</p>
 										<div class="apply-btn mt-35">
-											<a href="#" class="bg-btn">APPLY NOW</a>
+											<!-- Button to trigger the modal -->
+												<button type="button" class="bg-btn" data-toggle="modal" data-target="#myModal">
+													APPLY NOW
+												</button>		
 										</div>
 									</div>
 								</div>
@@ -185,79 +235,19 @@
 										  <img class="plus" src="assets/images/plus.svg" alt="Plus" />
 									  </div>
 									 </h2>
-								  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-										<div class="accordion-body">
-											<p>Our Project Managers oversee and manage all aspects of construction projects, from inception to completion. You are responsible for coordinating resources, managing budgets, ensuring quality and safety standards, and effectively communicating with clients, subcontractors, and the project team to ensure successful project delivery.</p>
-											<div class="apply-btn mt-35">
-												<a href="#" class="bg-btn">APPLY NOW</a>
+									<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"    data-bs-parent="#accordionExample">
+											<div class="accordion-body">
+												<p>Our Project Managers oversee and manage all aspects of construction projects, from inception to completion. You are responsible for coordinating resources, managing budgets, ensuring quality and safety standards, and effectively communicating with clients, subcontractors, and the project team to ensure successful project delivery.</p>
+												<div class="apply-btn mt-35">
+													<a href="#" class="bg-btn">APPLY NOW</a>
+												</div>
 											</div>
-										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				<!-- <div class="accordion" id="careers-accordion">
-					<div class="accordion-item">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<h2 class="accordion-header" id="careers-accordion-1">
-										<button class="accordion-button secondary-color" type="button" data-bs-toggle="collapse" data-bs-target="#careers-accordion-1" aria-expanded="true" aria-controls="careers-accordion-1">Project Manager</button>
-										<div class="plus-minus">
-											<img class="plus" src="assets/images/plus.svg" alt="Plus" />
-										</div>
-									</h2>
-									<div id="careers-accordion-1" class="accordion-collapse collapse show" aria-labelledby="careers-accordion-1" data-bs-parent="#accordionExample">
-										<div class="accordion-body">
-											<p>Our Project Managers oversee and manage all aspects of construction projects, from inception to completion. You are responsible for coordinating resources, managing budgets, ensuring quality and safety standards, and effectively communicating with clients, subcontractors, and the project team to ensure successful project delivery.</p>
-											<div class="apply-btn mt-35">
-												<a href="#" class="bg-btn wow animate__ animate__fadeInUp animated" data-wow-duration="2s">APPLY NOW</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="accordion-item">
-						<div class="container">
-							<h2 class="accordion-header" id="headingTwo">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#careers-accordion-2" aria-expanded="false" aria-controls="careers-accordion-2">Project Manager</button>
-								<div class="plus-minus">
-									<img class="plus" src="assets/images/plus.svg" alt="Plus" />
-								</div>
-							</h2>
-							<div id="careers-accordion-2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-								<div class="accordion-body">
-									<p>Our Project Managers oversee and manage all aspects of construction projects, from inception to completion. You are responsible for coordinating resources, managing budgets, ensuring quality and safety standards, and effectively communicating with clients, subcontractors, and the project team to ensure successful project delivery.</p>
-									<div class="apply-btn mt-35">
-										<a href="#" class="bg-btn wow animate__ animate__fadeInUp animated" data-wow-duration="2s">APPLY NOW</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="accordion-item">
-						<div class="container">
-							<h2 class="accordion-header" id="headingThree">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#careers-accordion-3" aria-expanded="false" aria-controls="careers-accordion-3">Project Manager</button>
-								<div class="plus-minus">
-									<img class="plus" src="assets/images/plus.svg" alt="Plus" />
-								</div>
-							</h2>
-							<div id="careers-accordion-3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-								<div class="accordion-body">
-									<p>Our Project Managers oversee and manage all aspects of construction projects, from inception to completion. You are responsible for coordinating resources, managing budgets, ensuring quality and safety standards, and effectively communicating with clients, subcontractors, and the project team to ensure successful project delivery.</p>
-									<div class="apply-btn mt-35">
-										<a href="#" class="bg-btn wow animate__ animate__fadeInUp animated" data-wow-duration="2s">APPLY NOW</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> -->
-			</div>
+			 </div>
 			<!--accordion area end  -->
 
 			<!-- Talk area start -->
@@ -388,8 +378,12 @@ Start Footer Section
 		</div>
 		<!--========== JS Here ==========-->
 		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/slim.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/owl.carousel.min.js"></script>
+		<script src="assets/js/jquery.nice-select.min.js"></script>
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
 		<script src="assets/js/jarallax.min.js"></script>
 		<script src="assets/js/wow.min.js"></script>
 		<script src="assets/js/backToTop.js"></script>

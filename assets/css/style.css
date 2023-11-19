@@ -29,6 +29,7 @@ Variables
 	--text-color6: rgba(255, 255, 255, 0.6);
 	--text-color7: #97b2e6;
 	--text-color8: #e87722;
+	--text-color9:#01205B;
 
 	/*_________ BG Color _________*/
 	--primary-bg: #ffffff;
@@ -87,6 +88,13 @@ h6 {
 	font-weight: 600;
 	text-transform: capitalize;
 }
+/* section-padding */
+.section-padding {
+	padding: 125px 0;
+}
+.section-padding-sm {
+	padding: 80px 0;
+}
 /* margin top */
 .mt-35 {
 	margin-top: 35px;
@@ -111,8 +119,14 @@ h6 {
 	padding-left: 70px;
 }
 /* padding top */
+.pt-25{
+	padding-top: 25px;
+} 
 .pt-80 {
 	padding-top: 80px;
+}
+.pt-70{
+	padding-top: 70px;
 }
 .pt-90 {
 	padding-top: 90px;
@@ -140,6 +154,10 @@ h6 {
 .pb-110 {
 	padding-bottom: 110px;
 }
+.pb-125{
+	padding-bottom: 125px;
+}
+
 .pb-150 {
 	padding-bottom: 150px;
 }
@@ -150,15 +168,14 @@ h6 {
 	padding-bottom: 200px;
 }
 
-/* section-padding */
-.section-padding {
-	padding: 125px 0;
-}
-.section-padding-sm {
-	padding: 80px 0;
-}
+
 
 /* gutter */
+.no-guuter{
+	--bs-gutter-x: 0px;
+	--bs-gutter-y: 0px;
+}
+
 .gutter-all-40 {
 	--bs-gutter-x: 40px;
 	--bs-gutter-y: 40px;
@@ -169,11 +186,20 @@ h6 {
 .gutter-106 {
 	--bs-gutter-x: 106px;
 }
+.gutter-127 {
+	--bs-gutter-x: 127px;
+}
+.gutter-140 {
+	--bs-gutter-x: 140px;
+}
+
+
 /* gap */
 .gap-106 {
 	gap: 106px;
 }
 /* container */
+
 .container {
 	max-width: 1134px;
 }
@@ -381,6 +407,9 @@ Text Color
 .text-color8 {
 	color: var(--text-color8);
 }
+.text-color9{
+	color: var(--text-color9);
+}
 
 /* 
 ===================================
@@ -480,6 +509,12 @@ Start Reuseble Components
 .bg-btn:hover {
 	padding-left: 38px;
 	padding-right: 38px;
+}
+.transparent-bg{
+	color: var(--bg-color3);
+	background: transparent;
+	border: 1px solid #00205B;
+	padding: 17px 26px;
 }
 
 .section-shape {
@@ -1187,7 +1222,10 @@ End Time-Talk Section
 /* #### nsihan write a code #####*/
 
 /* ==== gobal css ==== */
-
+ul {
+    padding: 0;
+    list-style: none;
+}
 /* title */
 .title-one {
 	font-size: 70px;
@@ -1200,6 +1238,14 @@ End Time-Talk Section
 .title-three {
 	font-size: 30px;
 	line-height: 1.15;
+}
+.title-four{
+	font-size: 24px;
+	line-height: 1.16;
+}
+.title-six{
+	font-size: 28px;
+    line-height: 0.875;
 }
 
 /* btn */
@@ -1519,10 +1565,10 @@ End Time-Talk Section
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
-.accordion-item {
+.careers-according-area  .accordion-item {
     padding: 71px 84px;
 }
-.accordion-button{
+.careers-according-area  .accordion-button{
 	color: #00205B;
     font-size: 40px;
     font-weight: 900;
@@ -1530,7 +1576,7 @@ End Time-Talk Section
     font-family: var(--primary-font);
 	padding: 0;
 }
-.accordion-button:not(.collapsed) {
+.careers-according-area  .accordion-button:not(.collapsed) {
 	color: #00205B;
     background-color: transparent;
     box-shadow: none;
@@ -1546,7 +1592,7 @@ End Time-Talk Section
 .accordion-button::after {
     display: none;
 }
-.accordion-header {
+.careers-according-area  .accordion-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1561,7 +1607,119 @@ End Time-Talk Section
 .careers-according-area    .accordion-button:not(.collapsed) ~ .plus-minus img {
     transform: rotate(45deg);
 }
+.modal{
+	height: 672px;
+}
+.pup-content{
+	background-color: #ddd;
+}
 /* carrer area  end */
+
+
+/* news area start */
+.news-card {
+    background: #F4F4F4;
+    padding: 35px 35px 48px;
+}
+.new-title p {
+    color: #97B2E6;
+    line-height: 1.7;
+    font-weight: 600;
+}
+.n-logo {
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    margin-right: 12px;
+    border-radius: 50px;
+}
+.news-sub-content p {
+    margin-top: 32px;
+    padding-left: 9px;
+}
+.benefits-content ul li{
+	margin-bottom: 13px;
+}
+.benefits-content ul li img {
+    margin-right: 15px;
+}
+.benefits-content ul li span {
+    color: #00205B;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 0.78;
+}
+/* news area end */
+
+
+
+/* contact area start */
+
+.contact-form-area {
+    background: #ddd;
+}
+.contact-content span {
+    font-size: 24px;
+    line-height: 1.04;
+    color: #E87722;
+    font-weight: 900;
+    margin-top: 27px;
+    margin-bottom: 57px;
+}
+.form-control:focus {
+    color: #888B8D;
+    background-color:#fff;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+.contact-form input , .contact-form textarea  {
+	color: #888B8D;
+    background: #fff;
+    padding:16px 23px 16px;
+    font-size: 18px;
+    font-weight: 700;
+	border-radius: 0;
+}
+.contact-form input::placeholder  , .contact-form textarea::placeholder{
+	color: #888B8D;
+	font-size: 18px;
+    font-weight: 700;
+	opacity: 1;
+	transition: 0.45s;
+  }
+  .contact-form input:focus::placeholder  , .contact-form textarea:focus::placeholder{
+	opacity: 0;
+  }
+  
+  .nice-select {
+    margin-bottom: 23px;
+}
+.contact-form textarea {
+    min-height: 170px;
+}
+.contact-btns button img{
+	margin-left: 11px;
+}
+
+
+/*  contruction-management-area   */
+.service-icon {
+    margin-right: 36px;
+}
+.service-content p {
+    margin-bottom: 40px;
+}
+.benefits-content ul li {
+    display: flex;
+    align-items: center;
+}
+.content-white p , .content-white ul li span{
+	color: #fff;
+}
+
+
+/* contact area end */
 
 
 

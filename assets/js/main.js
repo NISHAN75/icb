@@ -38,6 +38,23 @@ initOwlCarousel();
 
 
 
+// nice select
+
+$('.interest-select').niceSelect();
+
+/* magnificPopup img view */
+$('.popup-image').magnificPopup({
+	type: 'image',
+	gallery: {
+	  enabled: true
+	}
+});
+
+/* magnificPopup video view */
+$('.popup-video').magnificPopup({
+	type: 'iframe'
+});
+
 
 (function ($) {
 	"use strict";
@@ -55,7 +72,7 @@ initOwlCarousel();
         rewind: true,
         smartSpeed: 1000,
 	});
-	/* ===== Hero Slider JS ===== */
+	/* ===== leab-sciences-building JS ===== */
 	$(".leab-sciences-building").owlCarousel({
 		loop: true,
 		items: 1,
@@ -64,6 +81,20 @@ initOwlCarousel();
 		dots: true,
 		autoplay: true,
         mouseDrag: false,
+        touchDrag: false,
+        pullDrag: false,
+        rewind: true,
+        smartSpeed: 1000,
+	});
+	/* ===== news-card-sliderJS ===== */
+	$(".news-card-slider").owlCarousel({
+		loop: true,
+		items: 1,
+		margin: 0,
+		nav: true,
+		dots: true,
+		autoplay: true,
+        mouseDrag: true,
         touchDrag: false,
         pullDrag: false,
         rewind: true,
