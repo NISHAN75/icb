@@ -78,49 +78,60 @@
 
 			<!-- about hero section -->
 			<!-- The Modal -->
-			<div class="modal" id="myModal">
-				<div class="container-xl">
-					<div class="row no-guuter">
-							<div class="col-lg-6">
-								<img src="assets/images/contact-pop-img.jpg" alt="" class="w-100">
-							</div>
-							<div class="col-lg-6">
-								<button type="button" class="close" data-dismiss="modal">&times;</button>
-								<div class="contact-form">
-									<form action="#">
-										<div class="mb-3">
-											<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name*">
-										</div>
-										<div class="mb-3">
-											<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Last Name*">
-										</div>
-										<div class="mb-3">
-											<input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="Phone*">
-										</div>
-										<div class="mb-3">
-											<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email*">
-										</div>
-										<div class="mb-3">
-											<select class="w-100 interest-select" name="cars" id="cars">
-												<option value="volvo">Volvo</option>
-												<option value="saab">Saab</option>
-												<option value="mercedes">Mercedes</option>
-												<option value="audi">Audi</option>
-											</select>
-										</div>
-										<div class="mb-3">
-											<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comments"></textarea>
-										</div>
-										<div class="contact-btns d-flex  justify-content-between">
-											<button type="button" class="bg-btn wow animate__ animate__fadeInUp animated" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeInUp">SUBMIT</button>
-											<button  class="bg-btn transparent-bg wow animate__ animate__fadeInUp animated" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeInUp" type="file" id="pdfFile" name="pdfFile" accept=".pdf">UPLOAD PDF <img src="assets/images/upload-ico.svg" alt=""> </button>
-										</div>
-									</form>
-								</div>
-							</div>
+			<div class="modal fade carrer-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="container-xl">
+				<div class="modal-dialog position-relative">
+					
+					<div class="modal-img bg-property" style="background-image: url('assets/images/contact-pop-img.jpg');">	
 					</div>
-				</div>
+					
+					<div class="contact-form">
+						<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+							<svg xmlns="http://www.w3.org/2000/svg" width="79.193" height="79.192" viewBox="0 0 79.193 79.192">
+								<path id="plus" d="M1109.93,2605.9a1.765,1.765,0,0,0-1.77,1.76v10.64h-10.48a1.75,1.75,0,1,0-.01,3.5h10.49v10.56a1.765,1.765,0,1,0,3.53,0V2621.8h10.49a1.75,1.75,0,1,0,0-3.5h-10.49v-10.64A1.763,1.763,0,0,0,1109.93,2605.9Zm-19.81-5.65a28,28,0,1,0,39.61,0,28,28,0,0,0-39.61,0Zm37.13,37.13a24.5,24.5,0,1,1,0-34.66,24.5,24.5,0,0,1,0,34.66Z" transform="translate(1107.413 -2597.891) rotate(45)" fill="#e87722" fill-rule="evenodd"/>
+							  </svg>  
+						</button>
+						<h2 class="size-5xl secondary-color f-400 mb-2 pb-1">Join Our Team</h2>
+						<form action="#">
+							  <div class="mb-3">
+								<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name*">
+							  </div>
+							  <div class="mb-3">
+								<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Last Name*">
+							  </div>
+							  <div class="mb-3">
+								<input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="Phone*">
+							  </div>
+							  <div class="mb-3">
+								<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email*">
+							  </div>
+							  <div class="mb-3">
+								<select class="w-100 interest-select" name="cars" id="cars">
+									<option value="volvo">Volvo</option>
+									<option value="saab">Saab</option>
+									<option value="mercedes">Mercedes</option>
+									<option value="audi">Audi</option>
+								  </select>
+							  </div>
+							  <div class="mb-3">
+								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comments"></textarea>
+							  </div>
+							  <div class="contact-btns d-flex  justify-content-between">
+								<button type="button" class="bg-btn wow animate__ animate__fadeInUp animated" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeInUp">SUBMIT</button>
+								<label for="pdf" class="file-upload d-flex align-items-center bg-btn transparent-bg wow animate__ animate__fadeInUp animated" data-wow-duration="2s">
+									UPLOAD PDF
+									<span><img src="assets/images/upload-ico.svg" alt=""></span>
+									
+									<span><input size="40" class="upload-input" id="pdf" accept=".pdf" aria-invalid="false" type="file" name="resume"></span>
+								</label>
+								
+							  </div>
+						</form>
+					</div>							
+				  </div>
+			  </div>
 			</div>
+			<!-- The Modal -->
 			<!--  accordion area start -->
 			<div class="careers-according-area" id="careers-accordion">
 				<div class="accordion" id="accordionExample">
@@ -128,10 +139,8 @@
 					   <div class="container">
 						<div class="row">
 							<div class="col">
-								<h2 class="accordion-header" id="headingOne">
-									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								<h2 class="accordion-header" id="headingOne" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 										Project Manager
-									</button>
 									<div class="plus-minus">
 										<img class="plus" src="assets/images/plus.svg" alt="Plus" />
 									</div>
@@ -141,9 +150,7 @@
 										<p>Our Project Managers oversee and manage all aspects of construction projects, from inception to completion. You are responsible for coordinating resources, managing budgets, ensuring quality and safety standards, and effectively communicating with clients, subcontractors, and the project team to ensure successful project delivery.</p>
 										<div class="apply-btn mt-35">
 											<!-- Button to trigger the modal -->
-												<button type="button" class="bg-btn" data-toggle="modal" data-target="#myModal">
-													APPLY NOW
-												</button>		
+											<button type="button" class="bg-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">APPLY NOW</button>
 										</div>
 									</div>
 								</div>
@@ -155,10 +162,8 @@
 						<div class="container">
 							<div class="row">
 								<div class="col">
-									<h2 class="accordion-header" id="headingTwo">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-										  Assistant Project Manager
-									   </button>
+									<h2 class="accordion-header collapsed" id="headingTwo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										Assistant Project Manager
 									  <div class="plus-minus">
 										  <img class="plus" src="assets/images/plus.svg" alt="Plus" />
 									  </div>
@@ -167,7 +172,7 @@
 										<div class="accordion-body">
 											<p>Our Project Managers oversee and manage all aspects of construction projects, from inception to completion. You are responsible for coordinating resources, managing budgets, ensuring quality and safety standards, and effectively communicating with clients, subcontractors, and the project team to ensure successful project delivery.</p>
 											<div class="apply-btn mt-35">
-												<a href="#" class="bg-btn">APPLY NOW</a>
+												<button type="button" class="bg-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">APPLY NOW</button>
 											</div>
 										</div>
 									</div>
@@ -179,10 +184,8 @@
 						<div class="container">
 							<div class="row">
 								<div class="col">
-									<h2 class="accordion-header" id="headingThree">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-											Superintendent
-									   </button>
+									<h2 class="accordion-header collapsed" id="headingThree" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+										Superintendent
 									  <div class="plus-minus">
 										  <img class="plus" src="assets/images/plus.svg" alt="Plus" />
 									  </div>
@@ -191,7 +194,7 @@
 										<div class="accordion-body">
 											<p>Our Project Managers oversee and manage all aspects of construction projects, from inception to completion. You are responsible for coordinating resources, managing budgets, ensuring quality and safety standards, and effectively communicating with clients, subcontractors, and the project team to ensure successful project delivery.</p>
 											<div class="apply-btn mt-35">
-												<a href="#" class="bg-btn">APPLY NOW</a>
+												<button type="button" class="bg-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">APPLY NOW</button>
 											</div>
 										</div>
 									</div>
@@ -203,10 +206,8 @@
 						<div class="container">
 							<div class="row">
 								<div class="col">
-									<h2 class="accordion-header" id="headingFour">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-											Assistant Superintendent
-									   </button>
+									<h2 class="accordion-header collapsed" id="headingFour" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+										Assistant Superintendent
 									  <div class="plus-minus">
 										  <img class="plus" src="assets/images/plus.svg" alt="Plus" />
 									  </div>
@@ -215,7 +216,7 @@
 										<div class="accordion-body">
 											<p>Our Project Managers oversee and manage all aspects of construction projects, from inception to completion. You are responsible for coordinating resources, managing budgets, ensuring quality and safety standards, and effectively communicating with clients, subcontractors, and the project team to ensure successful project delivery.</p>
 											<div class="apply-btn mt-35">
-												<a href="#" class="bg-btn">APPLY NOW</a>
+												<button type="button" class="bg-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">APPLY NOW</button>
 											</div>
 										</div>
 									</div>
@@ -227,10 +228,8 @@
 						<div class="container">
 							<div class="row">
 								<div class="col">
-									<h2 class="accordion-header" id="headingFive">
-										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-											Intern
-									   </button>
+									<h2 class="accordion-header collapsed" id="headingFive" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+									  Intern
 									  <div class="plus-minus">
 										  <img class="plus" src="assets/images/plus.svg" alt="Plus" />
 									  </div>
@@ -239,7 +238,7 @@
 											<div class="accordion-body">
 												<p>Our Project Managers oversee and manage all aspects of construction projects, from inception to completion. You are responsible for coordinating resources, managing budgets, ensuring quality and safety standards, and effectively communicating with clients, subcontractors, and the project team to ensure successful project delivery.</p>
 												<div class="apply-btn mt-35">
-													<a href="#" class="bg-btn">APPLY NOW</a>
+													<button type="button" class="bg-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">APPLY NOW</button>
 												</div>
 											</div>
 									</div>

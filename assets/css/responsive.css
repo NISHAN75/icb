@@ -2,6 +2,7 @@
   .l-l-b-wrapper {
     max-width: 1312px;
   }
+
 }
 
 /*
@@ -84,6 +85,20 @@ Responsive Breakpoint
   .main-menu .main-menu-item .main-menu-link {
     font-size: 40px;
   }
+
+  /* ##### write a  nsihan code ##### */
+
+  /* contact pop */
+  .carrer-modal .contact-form {
+    width: 50%;
+    padding: 55px;
+}
+.carrer-modal .modal-img {
+  width: 50%;
+}
+
+
+
 
   /* 
 	--------------------------------------
@@ -332,16 +347,49 @@ Responsive Breakpoint
 /* about section */
 .vision-content {
   margin-top: 40px;
+  padding: 0;
 }
 .process-area h2{
   text-align: center;
 }
 .process-card {
-  margin-top: 35px;
+  margin-top: 150px;
 }
 .process-card .secound-div {
   flex-direction: column;
 }
+.secound-div {
+  margin-top: 190px;
+  flex-wrap: wrap;
+}
+.arrow-1 {
+  bottom: -190px;
+  left: 40%;
+  transform: rotate(30deg);
+}
+.arrow-2 {
+  right: 40%;
+  bottom: -35%;
+  transform: rotate(30deg);
+}
+.arrow-3 {
+  display: none;
+}
+.secound-div .process-card:last-child{
+  margin-top: 200px;
+}
+/* contact pop */
+.carrer-modal .modal-img {
+  position: static;
+  height: 500px;
+  width: 100%;
+}
+.carrer-modal .contact-form {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
 
 
 
@@ -715,6 +763,19 @@ Responsive Breakpoint
   .icb-testimonial {
     margin-top: -70px;
   }
+
+
+  /* write a code nishan */
+  /* careers-according-area*/
+  .careers-according-area  .accordion-header {
+    font-size: 25px;
+}
+
+  /* modal */
+  .carrer-modal .contact-form {
+    padding: 10px;
+}
+
 }
 
 @media (max-width: 400px) {
