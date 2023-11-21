@@ -1342,7 +1342,7 @@ ul {
 
 /* process-area  */
 .process-card {
-	max-width: 494px;
+	width: 494px;
 	height: 494px;
 	background: #fff;
 	border-radius: 100%;

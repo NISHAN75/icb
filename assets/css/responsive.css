@@ -279,6 +279,7 @@ Responsive Breakpoint
     bottom: 180px;
   }
 
+
   /* 
 	--------------------------------------
 	Listen-Learn-Build Section Responsive
@@ -300,6 +301,7 @@ Responsive Breakpoint
     padding: 0px;
   }
 
+
   /* 
 	--------------------------------------
 	ICB-Testimonial Section Responsive
@@ -314,6 +316,8 @@ Responsive Breakpoint
     margin-right: -8px;
     max-width: 100px;
   }
+
+
 
   /* 
 	--------------------------------------
@@ -332,6 +336,7 @@ Responsive Breakpoint
   .services .services-img {
     max-width: 50px;
   }
+
 
   /* 
 	--------------------------------------
@@ -388,6 +393,18 @@ Responsive Breakpoint
   width: 100%;
   margin: 20px auto;
   text-align: center;
+}
+/* leadership area */
+.leadership-card p {
+  font-size: 22px;
+}
+/* contact area  */
+.contact-form-area .contact-form {
+  margin-top: 50px;
+}
+/* contruction-management-area */
+.contruction-management-area .pt-70.pb-65 {
+  padding: 40px 20px;
 }
 
 
@@ -564,7 +581,7 @@ Responsive Breakpoint
     font-size: 50px;
 }
 .leadership-card p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 
@@ -579,6 +596,11 @@ Responsive Breakpoint
     --size-3xl: 18px;
   }
 
+
+  /* title  */
+  .title-four {
+    font-size: 20px;
+}
   /* 
 	--------------------------------------
 	Header Section Responsive
@@ -699,6 +721,32 @@ Responsive Breakpoint
   .hero-slider .owl-dots {
     left: 20px;
   }
+  /* building-people-area  */
+  .title-one {
+    font-size: 35px;
+}
+/* carrer area */
+.careers-according-area .accordion-header {
+  font-size: 28px;
+}
+.careers-according-area .accordion-item {
+  padding: 20px 10px;
+}
+
+/* neews area */
+.news-card {
+  padding: 15px 10px;
+}
+/* services area */
+.service-content {
+  flex-wrap: wrap;
+}
+.service-icon {
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+
 }
 
 @media (max-width: 425px) {
@@ -803,6 +851,15 @@ Responsive Breakpoint
   .hero-slider .owl-dots {
     bottom: 130px;
   }
+
+  /* write a code nishan */
+
+
+  /* 404 page */
+  .back-home-page-content , .privacy-page-title {
+    height: 100vh;
+    padding: 121px 0;
+}
 }
 
 @media (max-width: 375px) {
@@ -814,4 +871,43 @@ Responsive Breakpoint
   .l-l-b-circle {
     right: -285px;
   }
+
+  /* title */
+  .title-four {
+    font-size: 18px;
+}
+
+
+  /* write a code nishan */
+  /* contact form */
+  .contact-btns {
+      flex-wrap: wrap;
+  }
+ 
+  .contact-btns button , .contact-btns label  {
+    margin: 0 auto;
+  }
+  .contact-btns button{
+    margin-bottom: 15px;
+  }
+
+  /* news area */
+  .news-title-info {
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
