@@ -97,6 +97,14 @@ Responsive Breakpoint
   width: 50%;
 }
 
+/* home slider */
+.home-slider-area .home-slider.owl-carousel .owl-nav {
+  left: 100px;
+}
+.home-slider-area .home-slider.owl-carousel .owl-dots {
+  left: 250px;
+}
+
 
 
 
@@ -225,6 +233,15 @@ Responsive Breakpoint
     width: 950px;
     height: 950px;
   }
+
+
+  /* home slider */
+  .home-slider-area .home-slider.owl-carousel .owl-nav {
+      left: 25px;
+  }
+  .home-slider-area .home-slider.owl-carousel .owl-dots {
+    left: 170px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -234,6 +251,8 @@ Responsive Breakpoint
     --size-4xl: 25px;
     --size-3xl: 20px;
   }
+
+  
 
   /* 
 	--------------------------------------
@@ -256,6 +275,16 @@ Responsive Breakpoint
   .menu .menu-item .menu-link {
     font-size: 20px;
   }
+
+
+  /* home slider area */
+.home-slider-area .home-slider.owl-carousel .owl-nav, .home-slider-area .home-slider.owl-carousel .owl-dots {
+    display: none;
+}
+.v-btn {
+  right: auto;
+  top: 75px;
+}
 
   /* 
 	--------------------------------------
@@ -421,6 +450,17 @@ Responsive Breakpoint
     --size-xl: 16px;
   }
 
+  /* title */
+.title-three {
+	font-size: 25px;
+}
+.title-four {
+	font-size: 20px;
+}
+.title-six {
+	font-size: 24px;
+}
+
   /* 
 	--------------------------------------
 	Header Section Responsive
@@ -527,7 +567,7 @@ Responsive Breakpoint
   .services {
     position: static;
     width: 290px;
-    height: 290px;
+    height: auto;
     margin: auto;
   }
 
@@ -601,6 +641,16 @@ Responsive Breakpoint
   .title-four {
     font-size: 20px;
 }
+  /* title */
+  .title-three {
+    font-size: 23px;
+  }
+  .title-four {
+    font-size: 18px;
+  }
+  .title-six {
+    font-size: 20px;
+  }
   /* 
 	--------------------------------------
 	Header Section Responsive
@@ -872,8 +922,18 @@ Responsive Breakpoint
     right: -285px;
   }
 
+ 
   /* title */
+  .title-three {
+    font-size: 20px;
+  }
   .title-four {
+    font-size: 18px;
+  }
+  .title-six {
+    font-size: 18px;
+  }
+   .title-four {
     font-size: 18px;
 }
 

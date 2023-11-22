@@ -10,8 +10,9 @@ $('.interest-select').niceSelect();
         loop: true,
         margin: 10,
         autoplay: true,
-        autoplayTimeout: 3000,
         autoplayHoverPause: true,
+		autoplayTimeOut: 20000,
+        smartSpeed: 20000,
         responsive: {
             // breakpoint from 0 up
             0: {
@@ -110,6 +111,27 @@ $('.popup-video').magnificPopup({
         rewind: true,
         smartSpeed: 1000,
 	});
+	/* ===== news-card-sliderJS ===== */
+	$(".home-slider").owlCarousel({
+		loop: true,
+		items: 1,
+		margin: 0,
+		nav: true,
+		navText: [
+			'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56"><defs><clipPath id="clip-path"><rect id="Rectangle_598" data-name="Rectangle 598" width="56" height="56" fill="#97b2e6"/></clipPath></defs><g id="Group_732" data-name="Group 732" transform="translate(56 56) rotate(180)"><g id="Group_730" data-name="Group 730" clip-path="url(#clip-path)"><path id="Path_16625" data-name="Path 16625" d="M47.793,8.195a28,28,0,1,0,.012.012l-.012-.012m-37.13,37.13a24.5,24.5,0,1,1,.012.012Zm12-1.052a2,2,0,0,1-1.414-3.414L33.77,28.341,21.252,15.824A2,2,0,0,1,24.08,13L38.012,26.927a2,2,0,0,1,0,2.828L24.08,43.687a1.99,1.99,0,0,1-1.414.586" fill="#97b2e6" fill-rule="evenodd"/></g></g></svg>',
+			'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56"><defs><clipPath id="clip-path"><rect id="Rectangle_598" data-name="Rectangle 598" width="56" height="56" fill="#97b2e6"/></clipPath></defs><g id="Group_730" data-name="Group 730" clip-path="url(#clip-path)"><path id="Path_16625" data-name="Path 16625" d="M47.793,8.195a28,28,0,1,0,.012.012l-.012-.012m-37.13,37.13a24.5,24.5,0,1,1,.012.012Zm12-1.052a2,2,0,0,1-1.414-3.414L33.77,28.341,21.252,15.824A2,2,0,0,1,24.08,13L38.012,26.927a2,2,0,0,1,0,2.828L24.08,43.687a1.99,1.99,0,0,1-1.414.586" fill="#97b2e6" fill-rule="evenodd"/></g></svg>'
+		],
+		dots: true,
+		autoplay: true,
+        mouseDrag: true,
+        touchDrag: false,
+        pullDrag: false,
+        rewind: true,
+        smartSpeed: 1000,
+		autoplayTimeout: 5000,
+	});
+	
+	
 	
 	/* ===== Partners Slider JS ===== */
 	const partnerSlider = $(".partners-slider").owlCarousel({
@@ -123,23 +145,7 @@ $('.popup-video').magnificPopup({
         mouseDrag: false,
 		autoplayTimeOut: 20000,
         smartSpeed: 20000,
-		responsive: {
-			426: {
-				margin: 40,
-				items: 3,
-			},
-			768: {
-				items: 4,
-			},
-			992: {
-				margin: 50,
-				items: 5,
-			},
-			1200: {
-				margin: 77,
-				items: 4,
-			},
-		},
+		
 	});
 	
 
