@@ -733,6 +733,14 @@ Responsive Breakpoint
     max-width: 65px;
   }
 
+  /* about section area */
+  .hero-section-2 {
+    height: 100vh;
+}
+.icb-testimonial .icb-testimonial-bottom {
+  padding-left: 0;
+}
+
   /* 
 	--------------------------------------
 	Footer Section Responsive
