@@ -151,7 +151,7 @@ h6 {
 }
 
 /* padding-bottom */
-.pb-45{
+.pb-45 {
 	padding-bottom: 45px;
 }
 .pb-65 {
@@ -160,7 +160,7 @@ h6 {
 .pb-85 {
 	padding-bottom: 85px;
 }
-.pb-100{
+.pb-100 {
 	padding-bottom: 100px;
 }
 .pb-110 {
@@ -911,7 +911,8 @@ Start Hero Section
 
 .hero-slider.owl-carousel .owl-dots button span,
 .leab-sciences-building.owl-carousel .owl-dots button span,
-.news-card-slider.owl-carousel .owl-dots button span, .home-slider.owl-carousel .owl-dots button span {
+.news-card-slider.owl-carousel .owl-dots button span,
+.home-slider.owl-carousel .owl-dots button span {
 	cursor: pointer;
 	width: 10px;
 	height: 10px;
@@ -1184,11 +1185,12 @@ Start Partners Section
 .partners-slider .owl-stage-outer {
 	overflow: inherit;
 }
-.partners-slider .owl-stage-outer .owl-stage , .building-slider .owl-stage-outer .owl-stage {
+.partners-slider .owl-stage-outer .owl-stage,
+.building-slider .owl-stage-outer .owl-stage {
 	transition-timing-function: linear !important;
 }
-.partners-logo img  {
-    height: 156px;
+.partners-logo img {
+	height: 156px;
 }
 /* 
 =========================================
@@ -1196,35 +1198,34 @@ End Partners Section
 =========================================
 */
 
-
 /* home slider area  */
 .item-wrap {
-    position: relative;
+	position: relative;
 	z-index: 1;
 }
 .item-wrap::before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    content: "";
-	background: #00205BBE 0% 0% no-repeat padding-box;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	content: "";
+	background: #00205bbe 0% 0% no-repeat padding-box;
 }
 .items-wrap-content {
-    height: 111px;
+	height: 111px;
 	color: #fff;
 }
 .home-slider-area .home-slider.owl-carousel .owl-nav {
-    bottom: 27px;
-    left: 205px;
+	bottom: 27px;
+	left: 205px;
 	right: auto;
 }
 .home-slider-area .home-slider.owl-carousel .owl-dots {
-    right: auto;
-    left: 377px;
-    margin-bottom: -12px;
+	right: auto;
+	left: 377px;
+	margin-bottom: -12px;
 }
 /* home slider end */
 
@@ -1301,8 +1302,8 @@ ul {
 	line-height: 0.92;
 }
 .title-two {
-    font-size: 50px;
-    line-height: 0.84;
+	font-size: 50px;
+	line-height: 0.84;
 }
 .title-three {
 	font-size: 30px;
@@ -1313,8 +1314,8 @@ ul {
 	line-height: 1.16;
 }
 .title-six {
-    font-size: 28px;
-    line-height: 1.14;
+	font-size: 28px;
+	line-height: 1.14;
 }
 /* border shape */
 .border-shape {
@@ -1359,8 +1360,8 @@ ul {
 }
 /* view btn */
 .v-btn {
-    position: absolute;
-    right: 24px;
+	position: absolute;
+	right: 24px;
 	color: var(--text-color7);
 	display: flex;
 	align-items: center;
@@ -1370,13 +1371,13 @@ ul {
 	font-weight: 800;
 }
 .v-btn svg {
-    margin-top: -4px;
-    margin-left: 4px;
+	margin-top: -4px;
+	margin-left: 4px;
 }
-.v-btn:hover span{
+.v-btn:hover span {
 	color: #fff;
 }
-.v-btn:hover svg path{
+.v-btn:hover svg path {
 	stroke: #fff;
 }
 
@@ -1403,17 +1404,13 @@ ul {
 	padding: 227px 0px 210px;
 }
 
-
 /* partners area start */
 .partners-sec {
-    padding-top: 70px;
-    padding-bottom: 56px;
+	padding-top: 70px;
+	padding-bottom: 56px;
 }
 
-
 /* partners area end */
-
-
 
 /* leadership area */
 .leadership-card p {
@@ -1432,17 +1429,17 @@ ul {
 }
 
 /* building section  */
-.building-people-area{
+.building-people-area {
 	padding-bottom: 110px;
 }
 .building-people-content {
 	max-width: 986px;
 }
 .building-people-area h2 {
-    line-height: 1.14;
+	line-height: 1.14;
 }
 .building-people-content p {
-    margin: 0;
+	margin: 0;
 }
 /* testimonial area */
 .about-testimonial .icb-testimonial-bottom .icb-testimonial-desc1::before {
@@ -1519,6 +1516,7 @@ ul {
 /*=== about section end=== */
 
 /* project section area statr */
+
 .gallary-wrap {
 	position: relative;
 	z-index: 1;
@@ -1536,6 +1534,70 @@ ul {
 	visibility: hidden;
 	transition: 0.45s;
 }
+
+.gallary-wrap {
+	height: 677px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 3%;
+    margin-bottom: 40px;
+    width: 18%;
+    float: left;
+	background-position: center bottom;
+	border-radius: 25px;
+}
+
+.gallary-list {
+    margin-left: -3%;
+    overflow: hidden;
+}
+
+.img-1{
+	background-image: url('../images/gallary-1.jpg');
+}
+.img-2{
+	background-image: url('../images/gallary-1.jpg');
+}
+.img-3{
+	background-image: url('../images/gallary-1.jpg');
+}
+.img-4{
+	background-image: url('../images/gallary-1.jpg');
+}
+.img-5{
+	background-image: url('../images/gallary-1.jpg');
+}
+.img-6{
+	background-image: url('../images/gallary-1.jpg');
+}
+.img-7{
+	background-image: url('../images/gallary-1.jpg');
+}
+.img-8{
+	background-image: url('../images/gallary-1.jpg');
+}
+.img-9{
+	background-image: url('../images/gallary-1.jpg');
+}
+.img-10{
+	background-image: url('../images/gallary-1.jpg');
+}
+
+.gallary-wrap.img-1 , .gallary-wrap.img-8 {
+    height: 677px;
+    width: 64%;
+}
+.gallary-wrap.img-2 , .gallary-wrap.img-3 , .gallary-wrap.img-6 , .gallary-wrap.img-7  {
+    width: 30%;
+    height: 298.5px;
+}
+.gallary-wrap.img-4 , .gallary-wrap.img-5 , .gallary-wrap.img-9 , .gallary-wrap.img-10{
+    width: 47%;
+   
+}
+
+
+
 .gallary-area .gallary-wrap:hover::before,
 .related-projects .gallary-wrap:hover::before {
 	opacity: 1;
@@ -1543,12 +1605,13 @@ ul {
 }
 .gallary-wrap img {
 	border-radius: 25px;
+	display: block;
 }
 .gallary-content p {
-    color: var(--text-color7);
-    font-size: 22px;
-    line-height: 1.27;
-    margin: 0;
+	color: var(--text-color7);
+	font-size: 22px;
+	line-height: 1.27;
+	margin: 0;
 }
 
 .gallary-content {
@@ -1578,21 +1641,24 @@ ul {
 }
 
 /*  leab-sciences-building */
-.leab-sciences-building.owl-carousel .owl-dots , .home-slider.owl-carousel .owl-dots {
+.leab-sciences-building.owl-carousel .owl-dots,
+.home-slider.owl-carousel .owl-dots {
 	position: absolute;
-    right: 205px;
-    left: auto;
-    bottom: 50px;
+	right: 205px;
+	left: auto;
+	bottom: 50px;
 	display: inline-block;
 }
-.leab-sciences-building.owl-carousel .owl-nav, .home-slider.owl-carousel .owl-nav {
-    position: absolute;
-    bottom: 37px;
-    right: 292px;
-    margin-top: -28px;
+.leab-sciences-building.owl-carousel .owl-nav,
+.home-slider.owl-carousel .owl-nav {
+	position: absolute;
+	bottom: 37px;
+	right: 292px;
+	margin-top: -28px;
 }
 
-.leab-sciences-building.owl-carousel .owl-prev , .home-slider.owl-carousel .owl-prev {
+.leab-sciences-building.owl-carousel .owl-prev,
+.home-slider.owl-carousel .owl-prev {
 	margin-right: 25px;
 }
 .leab-sciences-building.owl-carousel .owl-nav button.owl-next,
@@ -1665,14 +1731,14 @@ ul {
 
 /* accordion */
 .careers-according-area .accordion {
-    padding-top: 56px;
-    padding-bottom: 89px;
+	padding-top: 56px;
+	padding-bottom: 89px;
 }
-.accordion-item:first-child{
-    padding-top: 0;
+.accordion-item:first-child {
+	padding-top: 0;
 	border-top: 0;
 }
-.accordion-item:last-child{
+.accordion-item:last-child {
 	padding-bottom: 0;
 	border-bottom: 0;
 }
@@ -1717,7 +1783,6 @@ ul {
 }
 
 /* modal  */
-
 
 .carrer-modal .modal-dialog {
 	background: #f4f4f4;
@@ -1770,14 +1835,14 @@ ul {
 	left: 124px;
 	bottom: 4px;
 	display: inline-block;
-
 }
 .hero-slider.owl-carousel .owl-dots .active span,
 .news-card-slider.owl-carousel .owl-dots .active span {
 	opacity: 1;
 	background: var(--bg-color7);
 }
-.leab-sciences-building.owl-carousel .owl-dots .active span, .home-slider.owl-carousel .owl-dots .active span{
+.leab-sciences-building.owl-carousel .owl-dots .active span,
+.home-slider.owl-carousel .owl-dots .active span {
 	opacity: 1;
 	background: transparent;
 	border: 1px solid #fff;
@@ -1826,10 +1891,10 @@ ul {
 	margin-right: 15px;
 }
 .benefits-content ul li span {
-    color: #00205b;
-    font-size: 22px;
-    font-weight: 800;
-    line-height: 1.27;
+	color: #00205b;
+	font-size: 22px;
+	font-weight: 800;
+	line-height: 1.27;
 }
 /* news area end */
 
@@ -1837,6 +1902,8 @@ ul {
 
 .contact-form-area {
 	background: #ddd;
+	padding-top: 161px;
+	padding-bottom: 130px;
 }
 .contact-content span {
 	font-size: 24px;
@@ -1911,10 +1978,10 @@ ul {
 	margin-bottom: 40px;
 }
 .design-build-area {
-    padding-bottom: 177px;
+	padding-bottom: 177px;
 }
 .benefits-content {
-    margin-left: 103px;
+	margin-left: 103px;
 }
 .benefits-content ul li {
 	display: flex;
@@ -2120,3 +2187,5 @@ End Footer Section
 .r-contact-form textarea {
 	border: 1px solid #0f0c51;
 }
+
+/*  select design */

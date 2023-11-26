@@ -131,7 +131,12 @@ $('.popup-video').magnificPopup({
 		autoplayTimeout: 5000,
 	});
 	
-	
+	$(".js-select2").select2({
+		closeOnSelect : false,
+		allowHtml: true,
+		allowClear: true,
+		tags: true //
+	});
 	
 	/* ===== Partners Slider JS ===== */
 	const partnerSlider = $(".partners-slider").owlCarousel({
