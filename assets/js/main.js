@@ -152,7 +152,15 @@ $('.popup-video').magnificPopup({
         smartSpeed: 20000,
 		
 	});
+
+	// layout Masonry after each image loads
 	
+ 
+
+		$(".gallary-list").masonry();
+
+		
+		
 
 	/* ===== Wow JS ===== */
 	new WOW().init();
@@ -172,4 +180,3 @@ openMenuBtn.addEventListener("click", () => {
 	navBar.classList.toggle("open");
 	hamburger.classList.toggle("toggle");
 });
-
